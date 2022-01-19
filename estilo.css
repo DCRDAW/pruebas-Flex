@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+h1{
+    color: yellow;
+}
+h2{
+    color: yellowgreen;
+    margin-left: 1%;
+}
+#titulo{
+    font-size: xx-large;
+    color: white;
+}
+#indice{
+    position: fixed;
+    top: 0;
+    left: 70%;
+    width: 30%;
+    background-color: purple;
+    min-height: 100%;
+    padding-left: 3%;
+    font-weight: bold;
+}
+a {
+    color: white;
+    text-decoration: none; 
+  }
+.flex{
+    background-color: purple;
+    border: 1px solid white;
+    min-width: min-content;
+    border-radius: 10px;
+    display: flex;
+    width: 5%;
+    min-height: 30px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 2%;
+}
+.flex div{
+    margin-top: 10%;
+    background-color: violet;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#flexrow{
+    flex-direction: row;   
+}
+
+#flexcol{
+    flex-direction: column;
+}
+
+#flexwrap{
+    flex-wrap: wrap;
+}
+#NoWrap{
+    flex-wrap: nowrap; 
+}
+
+#flexwrapr{
+    flex-wrap: wrap-reverse;
+}
+
+#FlexStart{
+    justify-content: flex-start;
+    width: 10%;
+    padding: 0;
+}
+
+#FlexEnd{
+    justify-content: flex-end;
+    width: 10%;
+    padding: 0;
+}
+
+#FCenter{
+    justify-content: center;
+    width: 10%;
+    padding: 0;
+}
+
+#SpaceBetween{
+    justify-content:space-between;
+    width: 10%;
+    padding: 0;
+}
+
+#SpaceAround{
+    justify-content:space-around;
+    width: 10%;
+    padding: 0;
+}
+#SpaceEvenly{
+    justify-content:space-evenly;
+    width: 10%;
+    padding: 0;
+}
+
+#FlexStartA{
+    height: 50px;
+    align-items: flex-start;
+    width: 10%;
+    padding: 0;
+}
+#FlexEndA{
+    height: 50px;
+    align-items: flex-end;
+    width: 10%;
+    padding: 0;
+}
+#FlexCenter{
+    height: 50px;
+    align-items: center;
+    width: 10%;
+    padding: 0;
+}
+#Stretch{
+    height: 50px;
+    align-items: stretch;
+    width: 10%;
+    padding: 0;
+}
+#Baseline{
+    height: 50px;
+    align-items: baseline;
+    width: 10%;
+    padding: 0;
+}
+#order3{
+    order: 3;
+}
+#order2{
+    order: 2;
+}
+#order1{
+    order: 1;
+}
+#order4{
+    order: 4;
+}
